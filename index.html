@@ -1,39 +1,45 @@
-<! Doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width" initial-scale>
-<title> Mohamed Elmaouloud Ag Bakrene</title>
-<link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Elmaouloud Ag Bakrene</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="cover"> 
-<img class="cover-profile1" src="Profile1.jpg">
-<h1> Mohamed Elmaouloud Ag Bakrene</h1>
-<p> developper freelance </p>
-<div>
-<p><a class="contact-button" href="mailto:mohamedagbakrene@gmail.com?subject=Contact%%20depuis%20mohamedagbakrene@gmail.com "> ME CONTACTER</a></p>
-</div style="text-align:center">
-<div class="cover-contact">
-<p><a href="mailto:mohamedagbakrene@gmail.com?subject=Contact%%20depuis%20mohamedagbakrene@gmail.com ">  mohamedagbakrene@gmail.com</a></p>
-<p><a href="tel:+212687533999"> +212687533999</a></p>
-</div>
- </div>
- <!-- SECTION GRISE 1 -->
+    <!-- COUVERTURE -->
+    <div class="cover">
+        <img class="cover-profile" src="profile.jpg"/>
+        <h1>Mohamed Elmaouloud Ag Bakrene</h1>
+        <p>Développeur Freelance | peu d'expérience</p>
+        
+        <div style="text-align: center;">
+            <a class="contact-button" href="mailto:mon_email@gmail.com?subject=Contact%20depuis%20mohamedagbakrene@gmail.com">ME CONTACTER</a>
+        </div>
+        <div class="cover-contact">
+            <p><a href="mailto:mon_email@gmail.com?subject=Contact%20depuis%20mohamedagbakrene@gmail.com">mon_email@gmail.com</a></p>
+            <p><a href="tel:+33612345678">0687533999</a></p>
+        </div>
+    </div>
+    <!-- SECTION GRISE 1 -->
     <div class="section section-grise1">
         <div class="separateur"></div>
         <p>Je développe <b>votre projet WEB</b> ou vos <b>Applications mobiles</b> iOS/Android de A à Z</p>
+        <div class="container">
+             <p> pour plus d'information  consulter mon cv ci-joint: <p>
+              <embed src="fichier/CV.pdf"#toolbar=0  width="109%" height="400px"/>
+         </div>
     </div>
-
+     
     <!-- SECTION BLANCHE -->
     <div class="section">
         <h2>En savoir plus</h2>
-        <img src="profile2.jpg" class="col40"/>
-        <div class="col60 float-right" style="padding-left: 0px; " >
+        <img src="profile2.jpg" class="col-contenu"/>
+        <div class="col-contenu float-right">
             <div class="texte-avec-ligne-verticale">
-                <p>Passionné par la programmation depuis le plus jeune age, je suis maintenant développeur  avec pas beaucoup d’expérience.<br><br>
-                    expert dans les domaines du <b>web</b> et des <b>applications mobiles</b>, je propose mes services personnalisés pour des missions freelance.</p>
-                <a href="https://www.linkedin.com/in/mohamed-elmaouloud-ag-bakrene-687a3b210/" target="_blank">En savoir plus sur mon profil</a>
+                <p>Passionné par la programmation depuis le plus jeune age, je suis maintenant développeur avec peu d'experience.<br><br>
+                    Expert dans les domaines du <b>web</b> et des <b>applications mobiles</b>, je propose mes services personnalisés pour des missions freelance.</p>
+                <a href="https://www.linkedin.com/in/mohamed-elmaouloud-ag-bakrene-687a3b210/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BSXEo1vBTT9GabdCfKkypcw%3D%3D" target="_blank">En savoir plus sur mon profil </a>
             </div>
         </div>
         
@@ -45,52 +51,28 @@
         <table class="col-portfolio" style="display:inline-block">
             <tr>
                 <td><div class="barre-verticale"></div></td>
-                <td><img style="width:100%" src="project1small.jpg"></td>
+                <td><a href="portfolio-site-restaurant.html"><img style="width:100%" src="project1small.jpg"></a></td>
             </tr>
             <tr>
                 <td></td>
-                <td align="center"><a href="#">Site web pour un restaurant</a></td>
+                <td align="center"><a href="portfolio-site-restaurant.html">Site web pour un restaurant</a></td>
             </tr>
         </table>
         <table  class="col-portfolio float-right">
             <tr>
                 <td><div class="barre-verticale"></div></td>
-                <td><img style="width:100%" src="project2small.jpg"></td>
+                <td><a href="portfolio-application-mobile-ai.html"><img style="width:100%" src="project2small.jpg"></a></td>
             </tr>
             <tr>
                 <td></td>
-                <td align="center"><a href="#">Application mobile "Intelligence artificielle"</a></td>
+                <td align="center"><a href="portfolio-application-mobile-ai.html">Application mobile "Intelligence artificielle"</a></td>
             </tr>
         </table>
     </div>
 
-    <!-- SECTION BLANCHE -->
-    <div class="section">
-        <div class="frame">
-            <p class="frame-title">Parlons de votre projet</p>
-            <table style="width: 100%">
-                <tr>
-                    <td valign="top" align="center"><img src="profile1.jpg" style="width: 100px"></td>
-                    <td>
-                        <div class="texte-avec-ligne-verticale"
-                        style="margin-left: 20px">
-                            <p>
-                                Besoin de discuter de votre projet 
-                                et obtenir l’avis d’un expert ?
-                                <br><br>
-                                <a href="mailto:mohamedagbakrene@gmail.com?subject=Contact%20depuis%20mohamedagbakrene@gmail.com">Contactez moi par email</a> ou directement
-                                par téléphone au <a href="tel:+212687533999">06 87 53 39 99</a>
-
-                            </p>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-
-        </div>
-    </div>
-
+    <!-- SECTION BLANCHE FRAME -->
+    <iframe src="contact-frame.html" scrolling="no"/></frame>
+   
+    
 </body>
-
-
 </html>
